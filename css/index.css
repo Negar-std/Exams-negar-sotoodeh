@@ -1,0 +1,97 @@
+body{
+    font-family: 'Nunito Sans';
+}
+
+.container1{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo{
+    font-family: Montserrat;
+    font-size: 3rem;
+}
+.search input[type=text] {
+    background: transparent;
+    border: none;
+    width: 20rem;
+    padding: 0.25rem 0.563rem 0.6rem 0.563rem;
+}
+::placeholder {
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h4{
+    font-size: 1.75rem;
+    font-weight: 700;
+
+}
+
+h2{
+    font-size: 2.25rem;
+}
+
+.payment-border{
+    width: 30%;
+}
+
+.box{
+    height: 44.563rem;
+    border-radius: 0.625rem;
+    background: #F6F9FF;
+    overflow: hidden;
+    box-shadow: 0 0.75rem 1.5rem 0.125rem rgba(185, 185, 185, 0.05), 0 1.5rem 3.75rem 0 rgba(106, 106, 106, 0.05), 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.10);
+}
+
+.box img {
+    width: 100%;
+    height: 29.625rem;
+    object-fit: cover;
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.ff-1{
+    font-family: 'Montserrat';
+}
+
+.m-top{
+    margin-top: 20rem;
+}
+
+@media screen and (max-width: 1440px){
+    .search{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .user{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .order{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .payment img{
+        width: 100%;
+    }
+}
